@@ -1,0 +1,41 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+service-account*.json
+
+# Generated / personalized content (may contain child PII)
+exercises/
+logs/
+run-*.log
+cron.log
+
+# Parent-customized copies of the doc templates — keep local
+docs/CHILD_PROFILE.md
+docs/SUBJECTS.md
+docs/CODE_CURRICULUM.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# PDFs — may contain rendered child content
+*.pdf
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Scratch
+tmp/
+*.tmp
+.blank.pdf

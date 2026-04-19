@@ -1,0 +1,72 @@
+# Subjects — per-subject playbooks
+
+> Copy this file to `docs/SUBJECTS.md` and customize. Only include the
+> subjects you listed in `.env → SUBJECTS`.
+
+For each subject, tell Aristotle:
+
+1. **The curriculum / textbook** your child's class uses.
+2. **The standards family** (Common Core, TEKS, NGSS, state-specific, etc.).
+3. **Any special vocabulary** the teacher expects.
+4. **What "practice" should look like** for this subject — the shape of a good worksheet.
+
+---
+
+## math
+
+- **Textbook:** {{ e.g. CPM Core Connections Course 1 }}
+- **Standards:** {{ e.g. Common Core 6.RP, 6.NS, 6.EE, 6.G, 6.SP }}
+- **Worksheet shape:** scenario → 3–4 Socratic questions → worked example → 3–5 drill problems with diagrams and blank writing space.
+- **One illustration per exercise**, not just per section. This dramatically improves engagement for kids who need the story to stay alive across all five problems.
+- **Non-negotiables:** illustrations are scenes only (no math formulas in art); diagrams use `<!-- DIAGRAM: ... -->` tags rendered by matplotlib.
+
+---
+
+## science
+
+- **Textbook:** {{ e.g. Amplify Science, McGraw-Hill Inspire }}
+- **Standards:** {{ e.g. NGSS MS-LS1, MS-PS1 }}
+- **Worksheet shape:** phenomenon → "what do you notice / wonder" Socratic questions → concept explanation → 3–5 mixed items (label a diagram, predict / observe / explain, short-answer).
+- **Include when relevant:** labeled diagrams (cell, circuit, food web), data tables for the student to interpret, a mini lab-at-home suggestion.
+
+---
+
+## social_studies
+
+- **Textbook / curriculum:** {{ e.g. TCI History Alive!, McGraw-Hill Impact }}
+- **Standards:** {{ e.g. California HSS 6th, C3 Framework }}
+- **Worksheet shape:** primary-source excerpt (1 paragraph) → Socratic "what do you see / infer" questions → short vocabulary drill → one DBQ-style short-essay prompt with a scoring rubric.
+- **Coverage:** prioritize the unit the class is currently on. Rotate regions / eras to avoid monotony.
+
+---
+
+## language_arts
+
+- **Textbook / curriculum:** {{ e.g. StudySync, SpringBoard }}
+- **Standards:** {{ e.g. Common Core ELA RL.6, W.6, L.6 }}
+- **Worksheet shape:** short reading passage (150–300 words) → 3–5 comprehension questions → grammar / vocabulary mini-drill → paragraph-writing prompt with a rubric.
+- **Passage sourcing:** use public-domain texts or paraphrase from class readings — never reproduce copyrighted material verbatim.
+
+---
+
+## foreign_language
+
+- **Language:** {{ e.g. Spanish, French, Mandarin }}
+- **Textbook / curriculum:** {{ e.g. ¡Avancemos! 1, Discovering French Nouveau }}
+- **Worksheet shape:** short dialogue → translation drill → verb conjugation table with blanks → cultural "did you know" tie-in.
+- **Keep it speakable:** every sentence should be something your kid would actually say.
+
+---
+
+## off-curriculum enrichment (optional)
+
+If your child is ahead or wants to explore outside the standard curriculum, add a custom subject here:
+
+### robotics
+
+- **Platform:** {{ Lego SPIKE Prime, VEX IQ, Arduino }}
+- **Worksheet shape:** problem statement → pseudocode sketch → block-code exercise with blanks → "what would change if…" reflection.
+
+### creative_writing, chess, music_theory, etc.
+
+Follow the same template — Aristotle adapts.

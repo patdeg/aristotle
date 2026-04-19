@@ -1,0 +1,54 @@
+# Weekly Code Track (optional)
+
+> Copy this file to `docs/CODE_CURRICULUM.md` and edit. Delete or rename to disable
+> the code section entirely.
+
+If your kid's ready for it, Aristotle can add a short coding section to each worksheet — 15–30 lines of Python (or HTML/CSS/JS, or SPIKE Prime blocks) with a few `???` blanks for them to fill in. The exercise maps the week's math topic to a programming concept.
+
+This file is the curriculum rail. Aristotle reads it to decide what the code section for *this week's worksheet* should be.
+
+---
+
+## Format
+
+Each row is one week's exercise. Mark the current week `next`, past weeks `done`, future weeks `pending`.
+
+| Status | Date | Math topic | Algorithm / concept | Tech |
+|---|---|---|---|---|
+| done | 2026-04-05 | Integer number line | Binary search bounds | Python |
+| next | 2026-04-12 | Ratios | Unit-rate normalization | Python |
+| pending | 2026-04-19 | Combining like terms | Polynomial add | Python |
+| pending | 2026-04-26 | Surface area | Mesh traversal | Python |
+
+---
+
+## Rules for each week's code section
+
+1. **15–30 lines of code**, no exotic imports (`math`, `sys` are fine).
+2. **3–5 `???` blanks** — each blank should be a math concept from this week's practice, reinterpreted as code.
+3. **Scenario from the child's world** (see `CHILD_PROFILE.md`). No generic `foo_bar`.
+4. **Include expected output** so the kid can verify.
+5. **One "challenge" extension** that pushes the concept further.
+6. **Answer key gets the complete solution** with line-by-line annotation.
+
+---
+
+## Tech options
+
+Pick whichever matches your kid's current tooling:
+
+- **Python** — runs anywhere, best for algorithm teaching.
+- **HTML/CSS/JS single file** — Chrome double-click, visual output, best for younger kids.
+- **SPIKE Prime blocks** — if they have Lego robotics.
+- **Shell on a Pi / laptop** — for command-line comfort.
+
+---
+
+## Long-term roadmap (optional)
+
+If you want an ambitious multi-year arc, list big project goals here. Aristotle will nudge the weekly exercises toward them.
+
+Examples:
+- Build a Minecraft server management CLI
+- Build a volleyball stat tracker
+- Build a small neural network from scratch by end of grade 10

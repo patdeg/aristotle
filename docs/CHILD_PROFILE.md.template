@@ -1,0 +1,70 @@
+# {{ CHILD_NAME }} — Profile
+
+> Copy this file to `docs/CHILD_PROFILE.md` (no `.template` suffix) and fill it in.
+> The real file is gitignored — don't commit it.
+
+A weekly practice worksheet is only as good as the scenarios it uses. This profile tells Aristotle how to write problems your child will actually read.
+
+---
+
+## Basics
+
+- **Name:** {{ first name }}
+- **Grade:** {{ e.g. 6th, 8th }}
+- **Textbook / curriculum:** {{ e.g. CPM Core Connections Course 1 }}
+- **Standards track:** {{ e.g. CA 6.RP / 6.NS / 6.EE / 6.G / 6.SP }}
+- **Reading level:** {{ roughly on-grade / a year ahead / a year behind / etc. }}
+
+---
+
+## What they care about (use these contexts for scenarios)
+
+Pick 3–5 things your child genuinely cares about. Aristotle will pull scenarios from this list.
+
+Examples:
+- Military history (Roman legions, Napoleonic regiments, WWII) — supply chains, quartermasters, fort defense
+- Minecraft / Roblox / specific video game lore
+- Percy Jackson / Harry Potter / fantasy worlds
+- Volleyball / basketball / soccer
+- Robotics / Lego / building things
+- Animals, space, dinosaurs, sharks
+- Business / money / sneaker resale / crypto
+
+**Be specific.** *"Likes history"* is a D- profile. *"Obsessed with how Roman legions fed 5,000 men on a forced march — especially quartermasters, amphorae, and the supply trains of Hannibal's Alpine crossing"* is an A+ profile. The more specific you are, the better the scenarios get.
+
+---
+
+## What makes them tick
+
+- **Cognitive style:** {{ concrete/hands-on or abstract/systems }}
+- **Motivator:** {{ competition / mastery / curiosity / praise }}
+- **Sinks energy when:** {{ long text walls / abstract proof first / too many words before the problem }}
+- **Thrives when:** {{ the scenario makes them want to know the answer / problems come in a story arc }}
+
+---
+
+## Tone
+
+Write the voice a favorite uncle would use with this kid. Warm, direct, never condescending. Ask more questions than you give answers.
+
+Avoid:
+- Baby talk
+- Generic "Johnny has 5 apples" problems
+- Emoji-heavy, marketing-style copy
+- Mentioning grades or "this is for school"
+
+---
+
+## Off-limits topics (optional)
+
+Some kids don't want scenarios about death, war, money pressure, or certain franchises. List anything to avoid here.
+
+---
+
+## Current trouble spots
+
+(Optional — Aristotle reads this from Canvas automatically, but you can hint here too.)
+
+| Topic | Most recent score | Notes |
+|---|---|---|
+| | | |

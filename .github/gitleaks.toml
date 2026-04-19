@@ -1,0 +1,28 @@
+# gitleaks config — rides on top of the default ruleset.
+# See https://github.com/gitleaks/gitleaks for the full schema.
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "canvas-personal-access-token"
+description = "Canvas LMS personal access token"
+regex = '''\b[0-9]{3,6}~[A-Za-z0-9]{40,}\b'''
+tags = ["key", "canvas"]
+
+[[rules]]
+id = "demeterics-api-key"
+description = "Demeterics API key"
+regex = '''\bdmt_[A-Za-z0-9_-]{20,}\b'''
+tags = ["key", "demeterics"]
+
+# Allow the .env.example template, this config, and the workflow that documents
+# what we block.
+[allowlist]
+description = "Templates and docs that legitimately mention these patterns"
+paths = [
+  '''\.env\.example''',
+  '''\.github/gitleaks\.toml''',
+  '''\.github/workflows/secret-scan\.yml''',
+  '''README\.md''',
+]
