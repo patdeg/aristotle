@@ -118,7 +118,7 @@ We've been training kids to be inferior robots. We finally have real robots. Wha
 
 I built the tool for my son because I wrote Chapter 5 and I couldn't keep writing about the future of education while my own twelve-year-old was not getting it. But I'm putting it on GitHub because the tool costs nothing to run and it belongs to every parent who's sat at a kitchen table trying to explain fractions to a kid who would rather be reading about the Punic Wars.
 
-The repo is [github.com/patdeg/aristotle](https://github.com/patdeg/aristotle). MIT license. About $100 a year to run (a domain name and a small email host). Two hours to set up if you're technical, an evening with a technical friend if you're not. I've documented every step.
+The repo is [github.com/patdeg/aristotle](https://github.com/patdeg/aristotle). MIT license. About $100 a year to run (a domain name and a small email host). Two hours to set up if you're technical, an evening with a technical friend if you're not. Claude Code or OpenAI Codex greatly suggested. I've documented every step.
 
 Change the mentor's name if you want. Aristotle was my son's pick, but Socrates, Hypatia, Ada Lovelace, Confucius, Ibn Sina all fit. Change the subject too. Math is the default but it works for science, social studies, language arts, foreign language. Put your kid's actual passion in the profile file and let the worksheet meet them where they actually live.
 
