@@ -1,5 +1,7 @@
 # My 12-Year-Old Asked If We Could Do More Math. I Think I Know Why.
 
+**Published on Medium:** [medium.com/@pdeglon/my-12-year-old-asked-if-we-could-do-more-math-i-think-i-know-why-5fb18cccf6e3](https://medium.com/@pdeglon/my-12-year-old-asked-if-we-could-do-more-math-i-think-i-know-why-5fb18cccf6e3)
+
 *A working artifact of Chapter 5 of The Unscarcity Blueprint. Built for one specific boy, now on GitHub for any parent who wants it.*
 
 ![Aristotle](images/mentor.png)

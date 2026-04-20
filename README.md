@@ -196,7 +196,7 @@ Works for Common Core, TEKS (Texas), SOL (Virginia), BEST (Florida), NGSS (scien
 | `print-pdf.sh` | Wrapper that prepends a blank page (fixes the EPSON WF7820 page-1 drop bug). |
 | `check-safety.sh` | Preflight: scans your staged changes for keys/PII before you push. Run this. |
 | `docs/PHILOSOPHY.md` | Long-form "why this exists", the Chapter 5 argument in full. |
-| `docs/MEDIUM.md` | The Medium article: first-person story of using this with my own 12-year-old. |
+| `docs/MEDIUM.md` | The Medium article: first-person story of using this with my own 12-year-old. [Read on Medium](https://medium.com/@pdeglon/my-12-year-old-asked-if-we-could-do-more-math-i-think-i-know-why-5fb18cccf6e3). |
 | `docs/LINKEDIN.md` | Short-form LinkedIn version of the same story. |
 | `docs/CHILD_PROFILE.md.template` | Your kid's interests, cognitive style, voice. Copy, edit, keep local. |
 | `docs/SUBJECTS.md.template` | Per-subject curriculum + worksheet shape. Copy, edit, keep local. |
