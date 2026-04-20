@@ -146,7 +146,7 @@ My son hasn't turned into a math prodigy. He's twelve, and the worksheet is two 
 - 📚 Hardcover / paperback on [**Amazon**](https://www.amazon.com/dp/1945061715)
 - 📖 Kindle edition on [**Amazon**](https://www.amazon.com/dp/B0GB11PZVX)
 - 🎧 [**Audiobook on Spotify**](https://open.spotify.com/show/6tLMdecf50XeHyFgDwsKmZ)
-- 🎙️ Companion podcast [**Minds, Bodies & Terawatts**](https://open.spotify.com/show/5tK6RXxsrcWzcKY8Wq9jiK) on Spotify, weekly deep-dives on topics the book only has space to introduce
+- 🎙️ Companion podcast [**Minds, Bodies & Terawatts**](https://open.spotify.com/show/5tK6RXxsrcWzcKY8Wq9jiK) on Spotify, daily deep-dives on topics the book only has space to introduce
 
 ---
 
