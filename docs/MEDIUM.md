@@ -1,6 +1,6 @@
 # My 12-Year-Old Asked If We Could Do More Math. I Think I Know Why.
 
-*A working artifact of Chapter 5 of The Unscarcity Project. Built for one specific boy, now on GitHub for any parent who wants it.*
+*A working artifact of Chapter 5 of The Unscarcity Blueprint. Built for one specific boy, now on GitHub for any parent who wants it.*
 
 ![Aristotle](images/mentor.png)
 
@@ -10,7 +10,7 @@ My youngest is twelve. He's what teachers politely call "people-smart": sharp wi
 
 He comes home from class looking a little lost. Not failing, exactly. Just… not arriving. The concepts glance off him. He says "I get it" when asked, and I can tell he doesn't. His teacher is good. His classroom has thirty-two other kids in it. The math is somewhere in the room, but it isn't in him.
 
-I've spent the last year writing a book about what education could be in the age of AI and robots. It's called *The Unscarcity Project*. [Chapter 5](https://unscarcity.ai/a/chapter5) argues that the factory model of school, designed in 1843 Prussia to produce obedient soldiers and compliant bureaucrats, is finally obsolete. That every child in the post-scarcity world has a personal tutor: a Large Language Model taking the role Aristotle took for Alexander, one kid at a time, adapted to that kid's pace and passions.
+I've spent the last year writing a book about what education could be in the age of AI and robots. It's called *The Unscarcity Blueprint*. [Chapter 5](https://unscarcity.ai/a/chapter5) argues that the factory model of school, designed in 1843 Prussia to produce obedient soldiers and compliant bureaucrats, is finally obsolete. That every child in the post-scarcity world has a personal tutor: a Large Language Model taking the role Aristotle took for Alexander, one kid at a time, adapted to that kid's pace and passions.
 
 > *"With Large Language Models, every child on Earth can have a personal Aristotle."*
 
@@ -132,7 +132,7 @@ My son hasn't turned into a math prodigy. He's twelve, and the worksheet is two 
 
 ---
 
-*If this resonated, [read Chapter 5](https://unscarcity.ai/a/chapter5) of *The Unscarcity Project*. It's about 25 minutes and it will change how you think about what your kid's school is actually for.*
+*If this resonated, [read Chapter 5](https://unscarcity.ai/a/chapter5) of *The Unscarcity Blueprint*. It's about 25 minutes and it will change how you think about what your kid's school is actually for.*
 
 *[github.com/patdeg/aristotle](https://github.com/patdeg/aristotle). MIT licensed, free forever. Pull requests welcome from any parent who wants to share what worked for their kid.*
 
@@ -150,7 +150,7 @@ My son hasn't turned into a math prodigy. He's twelve, and the worksheet is two 
 
 ---
 
-### Further reading from *The Unscarcity Project*
+### Further reading from *The Unscarcity Blueprint*
 
 - [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5)
 - [Education: Factory vs. Citizen](https://unscarcity.ai/a/education-factory-vs-citizen)

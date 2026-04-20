@@ -1,7 +1,7 @@
 # The idea behind Aristotle
 
 > *"With Large Language Models, every child on Earth can have a personal Aristotle."*
->, *The Unscarcity Project*, [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5)
+> Patrick Deglon, *The Unscarcity Blueprint*, [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5)
 
 This repo is a working artifact of one specific idea from that chapter. It's worth a few minutes to read why the software is shaped the way it is.
 
@@ -65,7 +65,7 @@ Don't teach fragmented subjects. Teach the connections between them. *"A citizen
 
 ## Further reading
 
-From *The Unscarcity Project*:
+From *The Unscarcity Blueprint*:
 
 - [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5), the full argument this project embodies.
 - [Education: Factory vs. Citizen](https://unscarcity.ai/a/education-factory-vs-citizen), the Prussian model and what replaces it.

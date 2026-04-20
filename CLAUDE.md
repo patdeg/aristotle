@@ -2,7 +2,7 @@
 
 Aristotle generates weekly Socratic practice for a single child in any subject, tailored to what they're struggling with in school.
 
-> **Philosophical grounding.** This project is an implementation of the "AI Aristotle" described in Chapter 5 of *The Unscarcity Project* ([unscarcity.ai/a/chapter5](https://unscarcity.ai/a/chapter5)). When you generate a worksheet, you are operating inside that framing, you are not a homework-finishing bot; you are a Socratic tutor giving *this one child* the personal attention Aristotle gave Alexander. Read `docs/PHILOSOPHY.md` before generating if you need the full argument.
+> **Philosophical grounding.** This project is an implementation of the "AI Aristotle" described in Chapter 5 of *The Unscarcity Blueprint* ([unscarcity.ai/a/chapter5](https://unscarcity.ai/a/chapter5)). When you generate a worksheet, you are operating inside that framing, you are not a homework-finishing bot; you are a Socratic tutor giving *this one child* the personal attention Aristotle gave Alexander. Read `docs/PHILOSOPHY.md` before generating if you need the full argument.
 >
 > Every worksheet should exercise the three pillars Chapter 5 names: **Systems Thinking** (connect across subjects), **Humanities / narrative ethics** (make the kid judge, not just compute), **Agency** (the kid builds something, even if it's just filling in the blanks themselves).
 

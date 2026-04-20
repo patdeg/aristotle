@@ -1,9 +1,9 @@
 # Aristotle
 
 > *"With Large Language Models, every child on Earth can have a personal Aristotle."*
-> Patrick Deglon, *The Unscarcity Project*, [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5)
+> Patrick Deglon, *The Unscarcity Blueprint*, [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5)
 
-**A personal AI mentor for your child, modelled after the AI Aristotle described in Chapter 5 of [*The Unscarcity Project*](https://unscarcity.ai).**
+**A personal AI mentor for your child, modelled after the AI Aristotle described in Chapter 5 of [*The Unscarcity Blueprint*](https://unscarcity.ai).**
 
 Aristotle reads your child's grades from Canvas, finds what they're struggling with, and every week writes a Socratic-style practice worksheet in the voice of a warm, patient, ancient Greek tutor, every scenario tailored to the things *this specific kid* actually cares about. The worksheet arrives as a printable PDF. The answer key goes to you.
 
@@ -13,7 +13,7 @@ It's not a homework bot. It's a one-on-one tutor, running on your laptop, free f
 
 ## Why this exists
 
-For 180 years we've educated kids with a system designed in 1843 Prussia to produce obedient soldiers and compliant factory workers. Bells, rows of desks, standardized tests, silence. *The Unscarcity Project* argues, and this project agrees, that the factory model is finally obsolete:
+For 180 years we've educated kids with a system designed in 1843 Prussia to produce obedient soldiers and compliant factory workers. Bells, rows of desks, standardized tests, silence. *The Unscarcity Blueprint* argues, and this project agrees, that the factory model is finally obsolete:
 
 > *"We've trained an entire civilization to act like machines, and now the actual machines have arrived to do the job for real."*
 > From [Education: Factory vs. Citizen](https://unscarcity.ai/a/education-factory-vs-citizen)
@@ -232,7 +232,7 @@ If the CI blocks you, see [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to fix yo
 
 ---
 
-## Further reading from *The Unscarcity Project*
+## Further reading from *The Unscarcity Blueprint*
 
 - [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5), the argument this project embodies.
 - [Education: Factory vs. Citizen](https://unscarcity.ai/a/education-factory-vs-citizen), the Prussian model and what replaces it.
