@@ -30,7 +30,7 @@ My wife was not enthusiastic. She has seen me start a lot of projects, and she h
 
 The eyebrow went up a millimeter. She isn't wrong to be skeptical. The internet is full of edtech that promises transformation and delivers screen time. I told her we'd try it for two weeks and if it wasn't helping, we'd stop.
 
-The tool I built is small. Every Tuesday it reads his Canvas grades, finds what he missed, and asks Claude to write him a two-page Socratic practice worksheet. It emails the PDF to him, the answer key to me. The whole thing runs on my laptop. It cost roughly nothing. It's on GitHub.
+The tool I built is small. Every Tuesday it reads his Canvas grades, finds what he missed, and asks Claude Code to write him a two-page Socratic practice worksheet. It emails the PDF to him, the answer key to me. The whole thing runs on my server in my garage. It cost roughly nothing, it's part of my Anthropic subscription. It's free on GitHub: [github.com/patdeg/aristotle](https://github.com/patdeg/aristotle).
 
 The first worksheet was competent and bland. He did the first problem, shrugged at the second, and asked if we were done. My wife's eyebrow did not move. It had the serenity of an eyebrow that had already been proven right.
 
