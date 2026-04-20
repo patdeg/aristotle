@@ -142,7 +142,7 @@ My son hasn't turned into a math prodigy. He's twelve, and the worksheet is two 
 
 *Unscarcity: The Blueprint to Rebuild Society for a World Run by Machines* is the full argument this project draws on. Chapter 5 is the education chapter; the other thirty-odd chapters cover what happens to work, governance, meaning, identity, and citizenship when intelligence stops being scarce.
 
-- 🌐 Read free online at **[unscarcity.ai](https://unscarcity.ai)** (full text, chapter by chapter)
+- 🌐 Read research articles free at **[unscarcity.ai](https://unscarcity.ai)**
 - 📚 Hardcover / paperback on [**Amazon**](https://www.amazon.com/dp/1945061715)
 - 📖 Kindle edition on [**Amazon**](https://www.amazon.com/dp/B0GB11PZVX)
 - 🎧 [**Audiobook on Spotify**](https://open.spotify.com/show/6tLMdecf50XeHyFgDwsKmZ)

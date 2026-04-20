@@ -67,7 +67,7 @@ Free. MIT-licensed. On GitHub.
 
 ## All the book links (for reference)
 
-- Website (free full text): https://unscarcity.ai
+- Website (free research articles): https://unscarcity.ai
 - Amazon hardcover: https://www.amazon.com/dp/1945061715
 - Amazon Kindle: https://www.amazon.com/dp/B0GB11PZVX
 - Spotify audiobook: https://open.spotify.com/show/6tLMdecf50XeHyFgDwsKmZ
