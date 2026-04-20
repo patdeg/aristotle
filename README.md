@@ -1,11 +1,11 @@
 # Aristotle
 
 > *"With Large Language Models, every child on Earth can have a personal Aristotle."*
-> — *The Unscarcity Project*, [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5)
+> Patrick Deglon, *The Unscarcity Project*, [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5)
 
-**A personal AI mentor for your child — modelled after the AI Aristotle described in Chapter 5 of [*The Unscarcity Project*](https://unscarcity.ai).**
+**A personal AI mentor for your child, modelled after the AI Aristotle described in Chapter 5 of [*The Unscarcity Project*](https://unscarcity.ai).**
 
-Aristotle reads your child's grades from Canvas, finds what they're struggling with, and every week writes a Socratic-style practice worksheet in the voice of a warm, patient, ancient Greek tutor — every scenario tailored to the things *this specific kid* actually cares about. The worksheet arrives as a printable PDF. The answer key goes to you.
+Aristotle reads your child's grades from Canvas, finds what they're struggling with, and every week writes a Socratic-style practice worksheet in the voice of a warm, patient, ancient Greek tutor, every scenario tailored to the things *this specific kid* actually cares about. The worksheet arrives as a printable PDF. The answer key goes to you.
 
 It's not a homework bot. It's a one-on-one tutor, running on your laptop, free forever.
 
@@ -13,12 +13,12 @@ It's not a homework bot. It's a one-on-one tutor, running on your laptop, free f
 
 ## Why this exists
 
-For 180 years we've educated kids with a system designed in 1843 Prussia to produce obedient soldiers and compliant factory workers. Bells, rows of desks, standardized tests, silence. *The Unscarcity Project* argues — and this project agrees — that the factory model is finally obsolete:
+For 180 years we've educated kids with a system designed in 1843 Prussia to produce obedient soldiers and compliant factory workers. Bells, rows of desks, standardized tests, silence. *The Unscarcity Project* argues, and this project agrees, that the factory model is finally obsolete:
 
 > *"We've trained an entire civilization to act like machines, and now the actual machines have arrived to do the job for real."*
-> — [Education: Factory vs. Citizen](https://unscarcity.ai/a/education-factory-vs-citizen)
+> From [Education: Factory vs. Citizen](https://unscarcity.ai/a/education-factory-vs-citizen)
 
-Chapter 5 describes a world where every kid has a personal tutor — an AI that teaches the way Aristotle taught Alexander, one kid at a time, adapted to that kid's pace and interests. That technology now exists. This repo is a small, working piece of it for parents who don't want to wait.
+Chapter 5 describes a world where every kid has a personal tutor, an AI that teaches the way Aristotle taught Alexander, one kid at a time, adapted to that kid's pace and interests. That technology now exists. This repo is a small, working piece of it for parents who don't want to wait.
 
 Read [`docs/PHILOSOPHY.md`](docs/PHILOSOPHY.md) for the longer version of why this project is shaped the way it is. Read [`docs/MEDIUM.md`](docs/MEDIUM.md) for the story of using it with my own 12-year-old for the first time.
 
@@ -26,13 +26,13 @@ Read [`docs/PHILOSOPHY.md`](docs/PHILOSOPHY.md) for the longer version of why th
 
 ## Works for any subject
 
-Math is the default — it ships with pixel-perfect number-line / inequality diagrams — but Aristotle writes practice in any subject your child takes: science, social studies, language arts, foreign language, or anything you add. List subjects in `.env`; Aristotle rotates through them.
+Math is the default, it ships with pixel-perfect number-line / inequality diagrams, but Aristotle writes practice in any subject your child takes: science, social studies, language arts, foreign language, or anything you add. List subjects in `.env`; Aristotle rotates through them.
 
 ```bash
 SUBJECTS=math,science,social_studies,language_arts
 ```
 
-Per-subject curriculum, textbook, and worksheet shape live in [`docs/SUBJECTS.md.template`](docs/SUBJECTS.md.template) — copy, customize, done.
+Per-subject curriculum, textbook, and worksheet shape live in [`docs/SUBJECTS.md.template`](docs/SUBJECTS.md.template). Copy it, customize it, done.
 
 ---
 
@@ -43,7 +43,7 @@ git clone https://github.com/patdeg/aristotle.git
 cd aristotle
 
 cp .env.example .env
-# Edit .env — fill in CHILD_NAME, SUBJECTS, Canvas + email details.
+# Edit .env, fill in CHILD_NAME, SUBJECTS, Canvas + email details.
 
 cp docs/CHILD_PROFILE.md.template docs/CHILD_PROFILE.md
 # Describe your kid: interests, reading level, what motivates them.
@@ -54,7 +54,7 @@ cp docs/SUBJECTS.md.template docs/SUBJECTS.md
 ./weekly-practice.sh --dry-run
 ```
 
-In `--dry-run`, all email goes to `PARENT_EMAIL` only — nothing lands in your child's inbox until you've reviewed the output and are happy.
+In `--dry-run`, all email goes to `PARENT_EMAIL` only, nothing lands in your child's inbox until you've reviewed the output and are happy.
 
 ### Scheduling
 
@@ -63,7 +63,7 @@ In `--dry-run`, all email goes to `PARENT_EMAIL` only — nothing lands in your 
 0 12 * * 2,4 /path/to/aristotle/weekly-practice.sh >> /path/to/aristotle/logs/cron.log 2>&1
 ```
 
-Most families run it twice a week (one set on Tuesday, a fresh set on Thursday). Run it as often as the kid can keep up with — and no more.
+Most families run it twice a week (one set on Tuesday, a fresh set on Thursday). Run it as often as the kid can keep up with, and no more.
 
 ---
 
@@ -97,20 +97,20 @@ Any registrar works. Common choices:
 | [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) | $10.44 | At-cost pricing, no markup. |
 | [Porkbun](https://porkbun.com) | $11 | WHOIS privacy free, clean UI. |
 | [Namecheap](https://www.namecheap.com) | $13 | Most common, strong brand. |
-| [GoDaddy](https://www.godaddy.com) | $12–22 | Easy to use — watch the second-year renewal price. |
+| [GoDaddy](https://www.godaddy.com) | $12–22 | Easy to use, watch the second-year renewal price. |
 
 Pick something family-flavoured: `smithfamily.net`, `yourkid.school`, `learnwith.us`. One domain covers every kid and every subject forever.
 
 ### 2. Host email on Migadu (~$9/month)
 
-[Migadu](https://www.migadu.com/pricing/) is a small Swiss email host built for this exact use case. They charge per **account**, not per mailbox — one subscription covers every address across every domain you ever own.
+[Migadu](https://www.migadu.com/pricing/) is a small Swiss email host built for this exact use case. They charge per **account**, not per mailbox, one subscription covers every address across every domain you ever own.
 
 Current plans (verified April 2026):
 
 | Plan | Price | Daily outgoing | Daily incoming | Notes |
 |---|---|---|---|---|
 | **Micro** | $19/year | 20 msgs | 200 msgs | Fine for one kid, weekly worksheet. |
-| **Mini** | $90/year ($9/mo) | 100 msgs | 1,000 msgs | Recommended — works as the whole family's email too. |
+| **Mini** | $90/year ($9/mo) | 100 msgs | 1,000 msgs | Recommended, works as the whole family's email too. |
 | **Standard** | $290/year | 500 msgs | 3,000 msgs | Large household / multiple kids. |
 | **Maxi** | $990/year | 2,000 msgs | 10,000 msgs | Overkill for personal use. |
 
@@ -141,7 +141,7 @@ smtp.auth.passwd.cmd = "pass show aristotle-migadu"
 
 Then `HIMALAYA_ACCOUNT=aristotle` and `MENTOR_EMAIL=aristotle@yourdomain.example` in `.env`.
 
-> **Don't want email?** Comment out the `send_email.py` call in `weekly-practice.sh`. Worksheets still land as PDFs in `exercises/` — you can open or print them directly.
+> **Don't want email?** Comment out the `send_email.py` call in `weekly-practice.sh`. Worksheets still land as PDFs in `exercises/`, you can open or print them directly.
 
 ---
 
@@ -151,27 +151,27 @@ Aristotle was built for families in a US public school on Canvas, but none of th
 
 ### If your school uses Canvas
 
-1. **Find your district's Canvas URL.** Always `https://<district>.instructure.com`. Whichever domain appears in the parent portal is the one you want — put it in `.env` as `CANVAS_BASE_URL`.
+1. **Find your district's Canvas URL.** Always `https://<district>.instructure.com`. Whichever domain appears in the parent portal is the one you want, put it in `.env` as `CANVAS_BASE_URL`.
 2. **Create a parent observer account** if you don't have one. Most districts link you automatically after the first year.
 3. **Generate a personal access token.** *Account → Settings → "+ New Access Token"*. Copy into `.env` as `CANVAS_API_KEY`.
-4. **Find each course ID.** Click into a class; the URL shows `…/courses/184581` — the trailing number is the ID. Put math in `CANVAS_COURSE_MATH`, science in `CANVAS_COURSE_SCIENCE`, etc.
+4. **Find each course ID.** Click into a class; the URL shows `…/courses/184581`, the trailing number is the ID. Put math in `CANVAS_COURSE_MATH`, science in `CANVAS_COURSE_SCIENCE`, etc.
 5. **Find your child's Canvas observee ID.** *Account → Observing*; hover your kid's name, the link contains the ID. Put it in `CANVAS_STUDENT_ID`.
 
 ### If your school doesn't use Canvas
 
-Aristotle still works — you just tell it manually what to drill on. Skip the `CANVAS_*` variables and keep a short list of weak topics in `docs/CHILD_PROFILE.md`:
+Aristotle still works, you just tell it manually what to drill on. Skip the `CANVAS_*` variables and keep a short list of weak topics in `docs/CHILD_PROFILE.md`:
 
 ```markdown
 ## Current trouble spots
-- Fractions: dividing mixed numbers — 3/5 on last quiz
-- Social studies: Ancient Egypt vocabulary — missed the test
+- Fractions: dividing mixed numbers, 3/5 on last quiz
+- Social studies: Ancient Egypt vocabulary, missed the test
 ```
 
 The prompt reads this file whenever Canvas is missing.
 
 ### State standards / curriculum
 
-Aristotle doesn't hardcode state standards or textbooks — it asks Claude to follow whatever you note in `docs/CHILD_PROFILE.md`:
+Aristotle doesn't hardcode state standards or textbooks, it asks Claude to follow whatever you note in `docs/CHILD_PROFILE.md`:
 
 ```markdown
 ## Basics
@@ -188,14 +188,14 @@ Works for Common Core, TEKS (Texas), SOL (Virginia), BEST (Florida), NGSS (scien
 | File | Role |
 |---|---|
 | `weekly-practice.sh` | Cron entry point. Builds the prompt, invokes Claude Code, emails the result. |
-| `generate_diagram.py` | Pixel-perfect matplotlib number lines / inequalities — no AI hallucination. |
+| `generate_diagram.py` | Pixel-perfect matplotlib number lines / inequalities, no AI hallucination. |
 | `generate_illustration.py` | Scenario illustrations via Demeterics GenAI (optional). |
 | `md_to_pdf.py` | Markdown → styled printable PDF via headless chromium. |
 | `embed_images.py` | Inlines images as base64 for standalone HTML. |
 | `send_email.py` | SMTP sender via `himalaya`, with inline image + PDF attachment support. |
 | `print-pdf.sh` | Wrapper that prepends a blank page (fixes the EPSON WF7820 page-1 drop bug). |
 | `check-safety.sh` | Preflight: scans your staged changes for keys/PII before you push. Run this. |
-| `docs/PHILOSOPHY.md` | Long-form "why this exists" — the Chapter 5 argument in full. |
+| `docs/PHILOSOPHY.md` | Long-form "why this exists", the Chapter 5 argument in full. |
 | `docs/MEDIUM.md` | The Medium article: first-person story of using this with my own 12-year-old. |
 | `docs/LINKEDIN.md` | Short-form LinkedIn version of the same story. |
 | `docs/CHILD_PROFILE.md.template` | Your kid's interests, cognitive style, voice. Copy, edit, keep local. |
@@ -207,26 +207,26 @@ Works for Common Core, TEKS (Texas), SOL (Virginia), BEST (Florida), NGSS (scien
 
 ## Requirements
 
-- **[Claude Code](https://claude.com/claude-code)** (subscription, OAuth) — worksheet generator runs as `claude -p …`. Anthropic API key not required and not used.
-- **[`himalaya`](https://github.com/pimalaya/himalaya)** CLI — SMTP sender.
-- **`chromium`** — headless PDF rendering.
-- **`pdfunite`** (poppler-utils) — only if you use `print-pdf.sh`.
+- **[Claude Code](https://claude.com/claude-code)** (subscription, OAuth), worksheet generator runs as `claude -p …`. Anthropic API key not required and not used.
+- **[`himalaya`](https://github.com/pimalaya/himalaya)** CLI, SMTP sender.
+- **`chromium`**, headless PDF rendering.
+- **`pdfunite`** (poppler-utils), only if you use `print-pdf.sh`.
 - **Python 3.10+** with `matplotlib` and `requests`.
 
 ---
 
-## Privacy / safety — how this repo stays clean
+## Privacy / safety, how this repo stays clean
 
 This is a **public repo**, which means every file in it is visible to anyone on the internet. Two mechanisms keep your kid's data out of it:
 
-1. **`.gitignore`** — `.env`, `logs/`, `exercises/`, and `*.pdf` never get staged. Your customized `docs/CHILD_PROFILE.md` and `docs/SUBJECTS.md` are gitignored too; only the `.template` versions are tracked.
+1. **`.gitignore`**, `.env`, `logs/`, `exercises/`, and `*.pdf` never get staged. Your customized `docs/CHILD_PROFILE.md` and `docs/SUBJECTS.md` are gitignored too; only the `.template` versions are tracked.
 
 2. **`.github/workflows/secret-scan.yml`** runs three checks on every push and PR:
-   - `gitleaks` — catches API-key-shaped strings across 100+ providers.
-   - `PII regex guard` — rejects real email addresses, phone numbers, Canvas tokens, `sk-/pk-/dmt_/AIza` keys, AWS access keys, and private-key headers.
-   - `commit author email guard` — rejects commits authored with a personal `@gmail.com` / `@yahoo.com` / etc. Use the GitHub noreply form instead.
+   - `gitleaks`, catches API-key-shaped strings across 100+ providers.
+   - `PII regex guard`, rejects real email addresses, phone numbers, Canvas tokens, `sk-/pk-/dmt_/AIza` keys, AWS access keys, and private-key headers.
+   - `commit author email guard`, rejects commits authored with a personal `@gmail.com` / `@yahoo.com` / etc. Use the GitHub noreply form instead.
 
-**Before you push**, run `./check-safety.sh` locally. It's the same scan the CI action runs — no surprises.
+**Before you push**, run `./check-safety.sh` locally. It's the same scan the CI action runs, no surprises.
 
 If the CI blocks you, see [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to fix your git identity or rewrite a leaky commit.
 
@@ -234,15 +234,15 @@ If the CI blocks you, see [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to fix yo
 
 ## Further reading from *The Unscarcity Project*
 
-- [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5) — the argument this project embodies.
-- [Education: Factory vs. Citizen](https://unscarcity.ai/a/education-factory-vs-citizen) — the Prussian model and what replaces it.
-- [Gen Z and the Human Edge](https://unscarcity.ai/a/gen-z-human-edge) — *"You don't learn the Human Edge in a classroom. You learn it by using it."*
-- [Agentic AI & Orchestration](https://unscarcity.ai/a/agentic-ai-orchestration) — the orchestration skills education now has to prioritize.
-- [Four Living Pillars](https://unscarcity.ai/a/four-living-pillars) — the wider post-scarcity architecture this project fits inside.
-- [Guiding Axioms](https://unscarcity.ai/a/guiding-axioms) — the principles underneath.
+- [Chapter 5: The Education of a Citizen](https://unscarcity.ai/a/chapter5), the argument this project embodies.
+- [Education: Factory vs. Citizen](https://unscarcity.ai/a/education-factory-vs-citizen), the Prussian model and what replaces it.
+- [Gen Z and the Human Edge](https://unscarcity.ai/a/gen-z-human-edge), *"You don't learn the Human Edge in a classroom. You learn it by using it."*
+- [Agentic AI & Orchestration](https://unscarcity.ai/a/agentic-ai-orchestration), the orchestration skills education now has to prioritize.
+- [Four Living Pillars](https://unscarcity.ai/a/four-living-pillars), the wider post-scarcity architecture this project fits inside.
+- [Guiding Axioms](https://unscarcity.ai/a/guiding-axioms), the principles underneath.
 
 ---
 
-*MIT License. Contributions welcome — see [`CONTRIBUTING.md`](CONTRIBUTING.md).*
+*MIT License. Contributions welcome, see [`CONTRIBUTING.md`](CONTRIBUTING.md).*
 
 *Aristotle (384–322 BCE) tutored one student at a time and thought that was the point.*
